@@ -1,0 +1,25 @@
+{
+  "name": "abe",
+  "version": "1.0.0",
+  "description": "evangadiforum",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"nodemon server.js\" \"npm run client\"",
+    "client": "npm start --prefix client",
+    "start": "node server.js"
+  },
+  "author": "yisak",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^8.2.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "jsonwebtoken": "^9.0.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.1.0"
+  }
+}
